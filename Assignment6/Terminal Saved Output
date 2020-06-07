@@ -1,0 +1,4307 @@
+j  0.03424  0.01127 
+k  0.03424  0.01243 
+l  0.03423  0.03307 
+m  0.03425  0.02044 
+n  0.03424  0.05195 
+o  0.03424  0.05828 
+p  0.03425  0.01978 
+q  0.03424  0.01090 
+r  0.03426  0.04561 
+s  0.03424  0.05019 
+t  0.03425  0.07234 
+u  0.03424  0.02159 
+v  0.03425  0.01409 
+w  0.03426  0.01583 
+x  0.03480  0.01150 
+y  0.03757  0.01650 
+z  0.03438  0.01082 
+   0.10564  0.16580 
+sum[0] = 1.000000 sum[1] = 1.000000 
+
+log [P(observations | lambda)] = -144194.389817
+
+(base) Yashs-MBP:Assignment6 yash$ clear
+
+(base) Yashs-MBP:Assignment6 yash$ ./hmm BrownCorpus 15 1000 50000 700 12367
+GetT... T = 50000
+allocating 4800096 bytes of memory... done
+GetObservations... T = 50000
+
+N = 2, M = 27, T = 50000
+initial pi =
+ 0.47879  0.52121 ,  sum = 1.000000
+initial A =
+ 0.49708  0.50292 ,  sum = 1.000000
+ 0.48503  0.51497 ,  sum = 1.000000
+initial B^T =
+a  0.03546  0.04060 
+b  0.03452  0.03733 
+c  0.03972  0.03873 
+d  0.03641  0.04013 
+e  0.03783  0.03733 
+f  0.03830  0.04013 
+g  0.03924  0.03453 
+h  0.03641  0.03686 
+i  0.04019  0.03686 
+j  0.03972  0.04013 
+k  0.03452  0.03546 
+l  0.03688  0.03453 
+m  0.03593  0.03873 
+n  0.03452  0.03500 
+o  0.03688  0.03500 
+p  0.03688  0.03593 
+q  0.03735  0.03500 
+r  0.03972  0.03733 
+s  0.03499  0.03733 
+t  0.03546  0.03453 
+u  0.03688  0.03593 
+v  0.03735  0.03500 
+w  0.04113  0.03780 
+x  0.03593  0.03546 
+y  0.03641  0.03826 
+z  0.03688  0.03593 
+   0.03452  0.04013 
+sum[0] = 1.000000 sum[1] = 1.000000 
+
+begin iteration = 0
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 0, log [P(observation | lambda)] = -164826.716073
+
+begin iteration = 1
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 1, log [P(observation | lambda)] = -164736.391924
+
+begin iteration = 2
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 2, log [P(observation | lambda)] = -164680.113697
+
+begin iteration = 3
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 3, log [P(observation | lambda)] = -164623.938301
+
+begin iteration = 4
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 4, log [P(observation | lambda)] = -164567.865754
+
+begin iteration = 5
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 5, log [P(observation | lambda)] = -164511.896063
+
+begin iteration = 6
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 6, log [P(observation | lambda)] = -164456.029230
+
+begin iteration = 7
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 7, log [P(observation | lambda)] = -164400.265245
+
+begin iteration = 8
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 8, log [P(observation | lambda)] = -164344.604088
+
+begin iteration = 9
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 9, log [P(observation | lambda)] = -164289.045733
+
+begin iteration = 10
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 10, log [P(observation | lambda)] = -164233.590141
+
+begin iteration = 11
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 11, log [P(observation | lambda)] = -164178.237264
+
+begin iteration = 12
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 12, log [P(observation | lambda)] = -164122.987043
+
+begin iteration = 13
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 13, log [P(observation | lambda)] = -164067.839410
+
+begin iteration = 14
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 14, log [P(observation | lambda)] = -164012.794286
+
+begin iteration = 15
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 15, log [P(observation | lambda)] = -163957.851578
+
+begin iteration = 16
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 16, log [P(observation | lambda)] = -163903.011186
+
+begin iteration = 17
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 17, log [P(observation | lambda)] = -163848.272995
+
+begin iteration = 18
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 18, log [P(observation | lambda)] = -163793.636880
+
+begin iteration = 19
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 19, log [P(observation | lambda)] = -163739.102703
+
+begin iteration = 20
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 20, log [P(observation | lambda)] = -163684.670313
+
+begin iteration = 21
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 21, log [P(observation | lambda)] = -163630.339547
+
+begin iteration = 22
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 22, log [P(observation | lambda)] = -163576.110229
+
+begin iteration = 23
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 23, log [P(observation | lambda)] = -163521.982168
+
+begin iteration = 24
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 24, log [P(observation | lambda)] = -163467.955162
+
+begin iteration = 25
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 25, log [P(observation | lambda)] = -163414.028992
+
+begin iteration = 26
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 26, log [P(observation | lambda)] = -163360.203425
+
+begin iteration = 27
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 27, log [P(observation | lambda)] = -163306.478216
+
+begin iteration = 28
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 28, log [P(observation | lambda)] = -163252.853101
+
+begin iteration = 29
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 29, log [P(observation | lambda)] = -163199.327802
+
+begin iteration = 30
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 30, log [P(observation | lambda)] = -163145.902026
+
+begin iteration = 31
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 31, log [P(observation | lambda)] = -163092.575461
+
+begin iteration = 32
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 32, log [P(observation | lambda)] = -163039.347782
+
+begin iteration = 33
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 33, log [P(observation | lambda)] = -162986.218642
+
+begin iteration = 34
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 34, log [P(observation | lambda)] = -162933.187681
+
+begin iteration = 35
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 35, log [P(observation | lambda)] = -162880.254519
+
+begin iteration = 36
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 36, log [P(observation | lambda)] = -162827.418755
+
+begin iteration = 37
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 37, log [P(observation | lambda)] = -162774.679973
+
+begin iteration = 38
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 38, log [P(observation | lambda)] = -162722.037736
+
+begin iteration = 39
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 39, log [P(observation | lambda)] = -162669.491586
+
+begin iteration = 40
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 40, log [P(observation | lambda)] = -162617.041046
+
+begin iteration = 41
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 41, log [P(observation | lambda)] = -162564.685617
+
+begin iteration = 42
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 42, log [P(observation | lambda)] = -162512.424779
+
+begin iteration = 43
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 43, log [P(observation | lambda)] = -162460.257989
+
+begin iteration = 44
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 44, log [P(observation | lambda)] = -162408.184683
+
+begin iteration = 45
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 45, log [P(observation | lambda)] = -162356.204271
+
+begin iteration = 46
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 46, log [P(observation | lambda)] = -162304.316144
+
+begin iteration = 47
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 47, log [P(observation | lambda)] = -162252.519663
+
+begin iteration = 48
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 48, log [P(observation | lambda)] = -162200.814167
+
+begin iteration = 49
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 49, log [P(observation | lambda)] = -162149.198970
+
+begin iteration = 50
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 50, log [P(observation | lambda)] = -162097.673357
+
+begin iteration = 51
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 51, log [P(observation | lambda)] = -162046.236588
+
+begin iteration = 52
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 52, log [P(observation | lambda)] = -161994.887894
+
+begin iteration = 53
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 53, log [P(observation | lambda)] = -161943.626478
+
+begin iteration = 54
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 54, log [P(observation | lambda)] = -161892.451515
+
+begin iteration = 55
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 55, log [P(observation | lambda)] = -161841.362148
+
+begin iteration = 56
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 56, log [P(observation | lambda)] = -161790.357489
+
+begin iteration = 57
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 57, log [P(observation | lambda)] = -161739.436621
+
+begin iteration = 58
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 58, log [P(observation | lambda)] = -161688.598593
+
+begin iteration = 59
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 59, log [P(observation | lambda)] = -161637.842419
+
+begin iteration = 60
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 60, log [P(observation | lambda)] = -161587.167081
+
+begin iteration = 61
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 61, log [P(observation | lambda)] = -161536.571526
+
+begin iteration = 62
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 62, log [P(observation | lambda)] = -161486.054664
+
+begin iteration = 63
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 63, log [P(observation | lambda)] = -161435.615367
+
+begin iteration = 64
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 64, log [P(observation | lambda)] = -161385.252470
+
+begin iteration = 65
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 65, log [P(observation | lambda)] = -161334.964771
+
+begin iteration = 66
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 66, log [P(observation | lambda)] = -161284.751023
+
+begin iteration = 67
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 67, log [P(observation | lambda)] = -161234.609942
+
+begin iteration = 68
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 68, log [P(observation | lambda)] = -161184.540200
+
+begin iteration = 69
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 69, log [P(observation | lambda)] = -161134.540425
+
+begin iteration = 70
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 70, log [P(observation | lambda)] = -161084.609200
+
+begin iteration = 71
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 71, log [P(observation | lambda)] = -161034.745063
+
+begin iteration = 72
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 72, log [P(observation | lambda)] = -160984.946504
+
+begin iteration = 73
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 73, log [P(observation | lambda)] = -160935.211963
+
+begin iteration = 74
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 74, log [P(observation | lambda)] = -160885.539833
+
+begin iteration = 75
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 75, log [P(observation | lambda)] = -160835.928452
+
+begin iteration = 76
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 76, log [P(observation | lambda)] = -160786.376107
+
+begin iteration = 77
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 77, log [P(observation | lambda)] = -160736.881029
+
+begin iteration = 78
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 78, log [P(observation | lambda)] = -160687.441395
+
+begin iteration = 79
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 79, log [P(observation | lambda)] = -160638.055320
+
+begin iteration = 80
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 80, log [P(observation | lambda)] = -160588.720865
+
+begin iteration = 81
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 81, log [P(observation | lambda)] = -160539.436023
+
+begin iteration = 82
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 82, log [P(observation | lambda)] = -160490.198730
+
+begin iteration = 83
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 83, log [P(observation | lambda)] = -160441.006854
+
+begin iteration = 84
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 84, log [P(observation | lambda)] = -160391.858194
+
+begin iteration = 85
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 85, log [P(observation | lambda)] = -160342.750483
+
+begin iteration = 86
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 86, log [P(observation | lambda)] = -160293.681381
+
+begin iteration = 87
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 87, log [P(observation | lambda)] = -160244.648474
+
+begin iteration = 88
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 88, log [P(observation | lambda)] = -160195.649275
+
+begin iteration = 89
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 89, log [P(observation | lambda)] = -160146.681214
+
+begin iteration = 90
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 90, log [P(observation | lambda)] = -160097.741644
+
+begin iteration = 91
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 91, log [P(observation | lambda)] = -160048.827834
+
+begin iteration = 92
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 92, log [P(observation | lambda)] = -159999.936964
+
+begin iteration = 93
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 93, log [P(observation | lambda)] = -159951.066129
+
+begin iteration = 94
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 94, log [P(observation | lambda)] = -159902.212331
+
+begin iteration = 95
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 95, log [P(observation | lambda)] = -159853.372474
+
+begin iteration = 96
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 96, log [P(observation | lambda)] = -159804.543369
+
+begin iteration = 97
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 97, log [P(observation | lambda)] = -159755.721722
+
+begin iteration = 98
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 98, log [P(observation | lambda)] = -159706.904135
+
+begin iteration = 99
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 99, log [P(observation | lambda)] = -159658.087103
+
+begin iteration = 100
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 100, log [P(observation | lambda)] = -159609.267007
+
+begin iteration = 101
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 101, log [P(observation | lambda)] = -159560.440112
+
+begin iteration = 102
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 102, log [P(observation | lambda)] = -159511.602565
+
+begin iteration = 103
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 103, log [P(observation | lambda)] = -159462.750387
+
+begin iteration = 104
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 104, log [P(observation | lambda)] = -159413.879470
+
+begin iteration = 105
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 105, log [P(observation | lambda)] = -159364.985572
+
+begin iteration = 106
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 106, log [P(observation | lambda)] = -159316.064315
+
+begin iteration = 107
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 107, log [P(observation | lambda)] = -159267.111177
+
+begin iteration = 108
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 108, log [P(observation | lambda)] = -159218.121485
+
+begin iteration = 109
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 109, log [P(observation | lambda)] = -159169.090415
+
+begin iteration = 110
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 110, log [P(observation | lambda)] = -159120.012982
+
+begin iteration = 111
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 111, log [P(observation | lambda)] = -159070.884035
+
+begin iteration = 112
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 112, log [P(observation | lambda)] = -159021.698252
+
+begin iteration = 113
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 113, log [P(observation | lambda)] = -158972.450130
+
+begin iteration = 114
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 114, log [P(observation | lambda)] = -158923.133985
+
+begin iteration = 115
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 115, log [P(observation | lambda)] = -158873.743936
+
+begin iteration = 116
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 116, log [P(observation | lambda)] = -158824.273904
+
+begin iteration = 117
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 117, log [P(observation | lambda)] = -158774.717605
+
+begin iteration = 118
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 118, log [P(observation | lambda)] = -158725.068535
+
+begin iteration = 119
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 119, log [P(observation | lambda)] = -158675.319970
+
+begin iteration = 120
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 120, log [P(observation | lambda)] = -158625.464950
+
+begin iteration = 121
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 121, log [P(observation | lambda)] = -158575.496276
+
+begin iteration = 122
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 122, log [P(observation | lambda)] = -158525.406497
+
+begin iteration = 123
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 123, log [P(observation | lambda)] = -158475.187900
+
+begin iteration = 124
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 124, log [P(observation | lambda)] = -158424.832504
+
+begin iteration = 125
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 125, log [P(observation | lambda)] = -158374.332042
+
+begin iteration = 126
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 126, log [P(observation | lambda)] = -158323.677959
+
+begin iteration = 127
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 127, log [P(observation | lambda)] = -158272.861395
+
+begin iteration = 128
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 128, log [P(observation | lambda)] = -158221.873173
+
+begin iteration = 129
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 129, log [P(observation | lambda)] = -158170.703791
+
+begin iteration = 130
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 130, log [P(observation | lambda)] = -158119.343407
+
+begin iteration = 131
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 131, log [P(observation | lambda)] = -158067.781828
+
+begin iteration = 132
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 132, log [P(observation | lambda)] = -158016.008496
+
+begin iteration = 133
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 133, log [P(observation | lambda)] = -157964.012474
+
+begin iteration = 134
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 134, log [P(observation | lambda)] = -157911.782436
+
+begin iteration = 135
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 135, log [P(observation | lambda)] = -157859.306652
+
+begin iteration = 136
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 136, log [P(observation | lambda)] = -157806.572974
+
+begin iteration = 137
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 137, log [P(observation | lambda)] = -157753.568823
+
+begin iteration = 138
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 138, log [P(observation | lambda)] = -157700.281177
+
+begin iteration = 139
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 139, log [P(observation | lambda)] = -157646.696558
+
+begin iteration = 140
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 140, log [P(observation | lambda)] = -157592.801016
+
+begin iteration = 141
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 141, log [P(observation | lambda)] = -157538.580124
+
+begin iteration = 142
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 142, log [P(observation | lambda)] = -157484.018959
+
+begin iteration = 143
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 143, log [P(observation | lambda)] = -157429.102100
+
+begin iteration = 144
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 144, log [P(observation | lambda)] = -157373.813613
+
+begin iteration = 145
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 145, log [P(observation | lambda)] = -157318.137043
+
+begin iteration = 146
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 146, log [P(observation | lambda)] = -157262.055417
+
+begin iteration = 147
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 147, log [P(observation | lambda)] = -157205.551230
+
+begin iteration = 148
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 148, log [P(observation | lambda)] = -157148.606452
+
+begin iteration = 149
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 149, log [P(observation | lambda)] = -157091.202529
+
+begin iteration = 150
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 150, log [P(observation | lambda)] = -157033.320386
+
+begin iteration = 151
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 151, log [P(observation | lambda)] = -156974.940444
+
+begin iteration = 152
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 152, log [P(observation | lambda)] = -156916.042628
+
+begin iteration = 153
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 153, log [P(observation | lambda)] = -156856.606396
+
+begin iteration = 154
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 154, log [P(observation | lambda)] = -156796.610761
+
+begin iteration = 155
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 155, log [P(observation | lambda)] = -156736.034330
+
+begin iteration = 156
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 156, log [P(observation | lambda)] = -156674.855348
+
+begin iteration = 157
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 157, log [P(observation | lambda)] = -156613.051746
+
+begin iteration = 158
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 158, log [P(observation | lambda)] = -156550.601213
+
+begin iteration = 159
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 159, log [P(observation | lambda)] = -156487.481265
+
+begin iteration = 160
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 160, log [P(observation | lambda)] = -156423.669337
+
+begin iteration = 161
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 161, log [P(observation | lambda)] = -156359.142883
+
+begin iteration = 162
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 162, log [P(observation | lambda)] = -156293.879497
+
+begin iteration = 163
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 163, log [P(observation | lambda)] = -156227.857048
+
+begin iteration = 164
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 164, log [P(observation | lambda)] = -156161.053832
+
+begin iteration = 165
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 165, log [P(observation | lambda)] = -156093.448744
+
+begin iteration = 166
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 166, log [P(observation | lambda)] = -156025.021474
+
+begin iteration = 167
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 167, log [P(observation | lambda)] = -155955.752715
+
+begin iteration = 168
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 168, log [P(observation | lambda)] = -155885.624407
+
+begin iteration = 169
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 169, log [P(observation | lambda)] = -155814.619985
+
+begin iteration = 170
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 170, log [P(observation | lambda)] = -155742.724665
+
+begin iteration = 171
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 171, log [P(observation | lambda)] = -155669.925740
+
+begin iteration = 172
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 172, log [P(observation | lambda)] = -155596.212902
+
+begin iteration = 173
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 173, log [P(observation | lambda)] = -155521.578577
+
+begin iteration = 174
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 174, log [P(observation | lambda)] = -155446.018276
+
+begin iteration = 175
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 175, log [P(observation | lambda)] = -155369.530956
+
+begin iteration = 176
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 176, log [P(observation | lambda)] = -155292.119388
+
+begin iteration = 177
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 177, log [P(observation | lambda)] = -155213.790522
+
+begin iteration = 178
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 178, log [P(observation | lambda)] = -155134.555845
+
+begin iteration = 179
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 179, log [P(observation | lambda)] = -155054.431724
+
+begin iteration = 180
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 180, log [P(observation | lambda)] = -154973.439722
+
+begin iteration = 181
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 181, log [P(observation | lambda)] = -154891.606879
+
+begin iteration = 182
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 182, log [P(observation | lambda)] = -154808.965948
+
+begin iteration = 183
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 183, log [P(observation | lambda)] = -154725.555572
+
+begin iteration = 184
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 184, log [P(observation | lambda)] = -154641.420395
+
+begin iteration = 185
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 185, log [P(observation | lambda)] = -154556.611092
+
+begin iteration = 186
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 186, log [P(observation | lambda)] = -154471.184314
+
+begin iteration = 187
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 187, log [P(observation | lambda)] = -154385.202535
+
+begin iteration = 188
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 188, log [P(observation | lambda)] = -154298.733798
+
+begin iteration = 189
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 189, log [P(observation | lambda)] = -154211.851352
+
+begin iteration = 190
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 190, log [P(observation | lambda)] = -154124.633194
+
+begin iteration = 191
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 191, log [P(observation | lambda)] = -154037.161498
+
+begin iteration = 192
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 192, log [P(observation | lambda)] = -153949.521954
+
+begin iteration = 193
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 193, log [P(observation | lambda)] = -153861.803024
+
+begin iteration = 194
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 194, log [P(observation | lambda)] = -153774.095124
+
+begin iteration = 195
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 195, log [P(observation | lambda)] = -153686.489755
+
+begin iteration = 196
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 196, log [P(observation | lambda)] = -153599.078595
+
+begin iteration = 197
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 197, log [P(observation | lambda)] = -153511.952585
+
+begin iteration = 198
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 198, log [P(observation | lambda)] = -153425.201018
+
+begin iteration = 199
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 199, log [P(observation | lambda)] = -153338.910663
+
+begin iteration = 200
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 200, log [P(observation | lambda)] = -153253.164933
+
+begin iteration = 201
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 201, log [P(observation | lambda)] = -153168.043133
+
+begin iteration = 202
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 202, log [P(observation | lambda)] = -153083.619790
+
+begin iteration = 203
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 203, log [P(observation | lambda)] = -152999.964081
+
+begin iteration = 204
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 204, log [P(observation | lambda)] = -152917.139371
+
+begin iteration = 205
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 205, log [P(observation | lambda)] = -152835.202867
+
+begin iteration = 206
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 206, log [P(observation | lambda)] = -152754.205384
+
+begin iteration = 207
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 207, log [P(observation | lambda)] = -152674.191225
+
+begin iteration = 208
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 208, log [P(observation | lambda)] = -152595.198170
+
+begin iteration = 209
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 209, log [P(observation | lambda)] = -152517.257558
+
+begin iteration = 210
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 210, log [P(observation | lambda)] = -152440.394468
+
+begin iteration = 211
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 211, log [P(observation | lambda)] = -152364.627966
+
+begin iteration = 212
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 212, log [P(observation | lambda)] = -152289.971420
+
+begin iteration = 213
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 213, log [P(observation | lambda)] = -152216.432869
+
+begin iteration = 214
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 214, log [P(observation | lambda)] = -152144.015421
+
+begin iteration = 215
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 215, log [P(observation | lambda)] = -152072.717684
+
+begin iteration = 216
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 216, log [P(observation | lambda)] = -152002.534207
+
+begin iteration = 217
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 217, log [P(observation | lambda)] = -151933.455926
+
+begin iteration = 218
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 218, log [P(observation | lambda)] = -151865.470604
+
+begin iteration = 219
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 219, log [P(observation | lambda)] = -151798.563260
+
+begin iteration = 220
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 220, log [P(observation | lambda)] = -151732.716576
+
+begin iteration = 221
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 221, log [P(observation | lambda)] = -151667.911290
+
+begin iteration = 222
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 222, log [P(observation | lambda)] = -151604.126548
+
+begin iteration = 223
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 223, log [P(observation | lambda)] = -151541.340245
+
+begin iteration = 224
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 224, log [P(observation | lambda)] = -151479.529321
+
+begin iteration = 225
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 225, log [P(observation | lambda)] = -151418.670038
+
+begin iteration = 226
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 226, log [P(observation | lambda)] = -151358.738221
+
+begin iteration = 227
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 227, log [P(observation | lambda)] = -151299.709472
+
+begin iteration = 228
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 228, log [P(observation | lambda)] = -151241.559359
+
+begin iteration = 229
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 229, log [P(observation | lambda)] = -151184.263575
+
+begin iteration = 230
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 230, log [P(observation | lambda)] = -151127.798075
+
+begin iteration = 231
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 231, log [P(observation | lambda)] = -151072.139192
+
+begin iteration = 232
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 232, log [P(observation | lambda)] = -151017.263734
+
+begin iteration = 233
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 233, log [P(observation | lambda)] = -150963.149055
+
+begin iteration = 234
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 234, log [P(observation | lambda)] = -150909.773120
+
+begin iteration = 235
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 235, log [P(observation | lambda)] = -150857.114551
+
+begin iteration = 236
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 236, log [P(observation | lambda)] = -150805.152657
+
+begin iteration = 237
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 237, log [P(observation | lambda)] = -150753.867463
+
+begin iteration = 238
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 238, log [P(observation | lambda)] = -150703.239718
+
+begin iteration = 239
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 239, log [P(observation | lambda)] = -150653.250902
+
+begin iteration = 240
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 240, log [P(observation | lambda)] = -150603.883225
+
+begin iteration = 241
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 241, log [P(observation | lambda)] = -150555.119621
+
+begin iteration = 242
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 242, log [P(observation | lambda)] = -150506.943734
+
+begin iteration = 243
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 243, log [P(observation | lambda)] = -150459.339903
+
+begin iteration = 244
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 244, log [P(observation | lambda)] = -150412.293146
+
+begin iteration = 245
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 245, log [P(observation | lambda)] = -150365.789134
+
+begin iteration = 246
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 246, log [P(observation | lambda)] = -150319.814175
+
+begin iteration = 247
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 247, log [P(observation | lambda)] = -150274.355185
+
+begin iteration = 248
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 248, log [P(observation | lambda)] = -150229.399664
+
+begin iteration = 249
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 249, log [P(observation | lambda)] = -150184.935674
+
+begin iteration = 250
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 250, log [P(observation | lambda)] = -150140.951812
+
+begin iteration = 251
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 251, log [P(observation | lambda)] = -150097.437181
+
+begin iteration = 252
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 252, log [P(observation | lambda)] = -150054.381373
+
+begin iteration = 253
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 253, log [P(observation | lambda)] = -150011.774438
+
+begin iteration = 254
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 254, log [P(observation | lambda)] = -149969.606863
+
+begin iteration = 255
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 255, log [P(observation | lambda)] = -149927.869547
+
+begin iteration = 256
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 256, log [P(observation | lambda)] = -149886.553782
+
+begin iteration = 257
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 257, log [P(observation | lambda)] = -149845.651229
+
+begin iteration = 258
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 258, log [P(observation | lambda)] = -149805.153898
+
+begin iteration = 259
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 259, log [P(observation | lambda)] = -149765.054128
+
+begin iteration = 260
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 260, log [P(observation | lambda)] = -149725.344568
+
+begin iteration = 261
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 261, log [P(observation | lambda)] = -149686.018162
+
+begin iteration = 262
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 262, log [P(observation | lambda)] = -149647.068128
+
+begin iteration = 263
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 263, log [P(observation | lambda)] = -149608.487943
+
+begin iteration = 264
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 264, log [P(observation | lambda)] = -149570.271332
+
+begin iteration = 265
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 265, log [P(observation | lambda)] = -149532.412246
+
+begin iteration = 266
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 266, log [P(observation | lambda)] = -149494.904857
+
+begin iteration = 267
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 267, log [P(observation | lambda)] = -149457.743537
+
+begin iteration = 268
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 268, log [P(observation | lambda)] = -149420.922853
+
+begin iteration = 269
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 269, log [P(observation | lambda)] = -149384.437553
+
+begin iteration = 270
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 270, log [P(observation | lambda)] = -149348.282554
+
+begin iteration = 271
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 271, log [P(observation | lambda)] = -149312.452935
+
+begin iteration = 272
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 272, log [P(observation | lambda)] = -149276.943925
+
+begin iteration = 273
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 273, log [P(observation | lambda)] = -149241.750897
+
+begin iteration = 274
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 274, log [P(observation | lambda)] = -149206.869357
+
+begin iteration = 275
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 275, log [P(observation | lambda)] = -149172.294940
+
+begin iteration = 276
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 276, log [P(observation | lambda)] = -149138.023400
+
+begin iteration = 277
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 277, log [P(observation | lambda)] = -149104.050606
+
+begin iteration = 278
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 278, log [P(observation | lambda)] = -149070.372531
+
+begin iteration = 279
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 279, log [P(observation | lambda)] = -149036.985253
+
+begin iteration = 280
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 280, log [P(observation | lambda)] = -149003.884944
+
+begin iteration = 281
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 281, log [P(observation | lambda)] = -148971.067869
+
+begin iteration = 282
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 282, log [P(observation | lambda)] = -148938.530379
+
+begin iteration = 283
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 283, log [P(observation | lambda)] = -148906.268907
+
+begin iteration = 284
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 284, log [P(observation | lambda)] = -148874.279964
+
+begin iteration = 285
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 285, log [P(observation | lambda)] = -148842.560137
+
+begin iteration = 286
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 286, log [P(observation | lambda)] = -148811.106082
+
+begin iteration = 287
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 287, log [P(observation | lambda)] = -148779.914524
+
+begin iteration = 288
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 288, log [P(observation | lambda)] = -148748.982254
+
+begin iteration = 289
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 289, log [P(observation | lambda)] = -148718.306122
+
+begin iteration = 290
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 290, log [P(observation | lambda)] = -148687.883040
+
+begin iteration = 291
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 291, log [P(observation | lambda)] = -148657.709976
+
+begin iteration = 292
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 292, log [P(observation | lambda)] = -148627.783951
+
+begin iteration = 293
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 293, log [P(observation | lambda)] = -148598.102042
+
+begin iteration = 294
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 294, log [P(observation | lambda)] = -148568.661373
+
+begin iteration = 295
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 295, log [P(observation | lambda)] = -148539.459118
+
+begin iteration = 296
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 296, log [P(observation | lambda)] = -148510.492499
+
+begin iteration = 297
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 297, log [P(observation | lambda)] = -148481.758781
+
+begin iteration = 298
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 298, log [P(observation | lambda)] = -148453.255275
+
+begin iteration = 299
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 299, log [P(observation | lambda)] = -148424.979333
+
+begin iteration = 300
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 300, log [P(observation | lambda)] = -148396.928350
+
+begin iteration = 301
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 301, log [P(observation | lambda)] = -148369.099757
+
+begin iteration = 302
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 302, log [P(observation | lambda)] = -148341.491028
+
+begin iteration = 303
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 303, log [P(observation | lambda)] = -148314.099672
+
+begin iteration = 304
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 304, log [P(observation | lambda)] = -148286.923235
+
+begin iteration = 305
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 305, log [P(observation | lambda)] = -148259.959299
+
+begin iteration = 306
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 306, log [P(observation | lambda)] = -148233.205482
+
+begin iteration = 307
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 307, log [P(observation | lambda)] = -148206.659434
+
+begin iteration = 308
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 308, log [P(observation | lambda)] = -148180.318838
+
+begin iteration = 309
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 309, log [P(observation | lambda)] = -148154.181410
+
+begin iteration = 310
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 310, log [P(observation | lambda)] = -148128.244899
+
+begin iteration = 311
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 311, log [P(observation | lambda)] = -148102.507083
+
+begin iteration = 312
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 312, log [P(observation | lambda)] = -148076.965771
+
+begin iteration = 313
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 313, log [P(observation | lambda)] = -148051.618802
+
+begin iteration = 314
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 314, log [P(observation | lambda)] = -148026.464043
+
+begin iteration = 315
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 315, log [P(observation | lambda)] = -148001.499391
+
+begin iteration = 316
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 316, log [P(observation | lambda)] = -147976.722772
+
+begin iteration = 317
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 317, log [P(observation | lambda)] = -147952.132136
+
+begin iteration = 318
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 318, log [P(observation | lambda)] = -147927.725463
+
+begin iteration = 319
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 319, log [P(observation | lambda)] = -147903.500760
+
+begin iteration = 320
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 320, log [P(observation | lambda)] = -147879.456058
+
+begin iteration = 321
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 321, log [P(observation | lambda)] = -147855.589415
+
+begin iteration = 322
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 322, log [P(observation | lambda)] = -147831.898914
+
+begin iteration = 323
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 323, log [P(observation | lambda)] = -147808.382665
+
+begin iteration = 324
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 324, log [P(observation | lambda)] = -147785.038798
+
+begin iteration = 325
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 325, log [P(observation | lambda)] = -147761.865473
+
+begin iteration = 326
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 326, log [P(observation | lambda)] = -147738.860869
+
+begin iteration = 327
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 327, log [P(observation | lambda)] = -147716.023191
+
+begin iteration = 328
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 328, log [P(observation | lambda)] = -147693.350667
+
+begin iteration = 329
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 329, log [P(observation | lambda)] = -147670.841547
+
+begin iteration = 330
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 330, log [P(observation | lambda)] = -147648.494105
+
+begin iteration = 331
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 331, log [P(observation | lambda)] = -147626.306635
+
+begin iteration = 332
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 332, log [P(observation | lambda)] = -147604.277456
+
+begin iteration = 333
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 333, log [P(observation | lambda)] = -147582.404906
+
+begin iteration = 334
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 334, log [P(observation | lambda)] = -147560.687345
+
+begin iteration = 335
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 335, log [P(observation | lambda)] = -147539.123154
+
+begin iteration = 336
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 336, log [P(observation | lambda)] = -147517.710737
+
+begin iteration = 337
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 337, log [P(observation | lambda)] = -147496.448515
+
+begin iteration = 338
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 338, log [P(observation | lambda)] = -147475.334931
+
+begin iteration = 339
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 339, log [P(observation | lambda)] = -147454.368449
+
+begin iteration = 340
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 340, log [P(observation | lambda)] = -147433.547550
+
+begin iteration = 341
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 341, log [P(observation | lambda)] = -147412.870737
+
+begin iteration = 342
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 342, log [P(observation | lambda)] = -147392.336531
+
+begin iteration = 343
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 343, log [P(observation | lambda)] = -147371.943472
+
+begin iteration = 344
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 344, log [P(observation | lambda)] = -147351.690119
+
+begin iteration = 345
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 345, log [P(observation | lambda)] = -147331.575050
+
+begin iteration = 346
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 346, log [P(observation | lambda)] = -147311.596860
+
+begin iteration = 347
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 347, log [P(observation | lambda)] = -147291.754162
+
+begin iteration = 348
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 348, log [P(observation | lambda)] = -147272.045588
+
+begin iteration = 349
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 349, log [P(observation | lambda)] = -147252.469787
+
+begin iteration = 350
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 350, log [P(observation | lambda)] = -147233.025425
+
+begin iteration = 351
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 351, log [P(observation | lambda)] = -147213.711186
+
+begin iteration = 352
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 352, log [P(observation | lambda)] = -147194.525768
+
+begin iteration = 353
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 353, log [P(observation | lambda)] = -147175.467890
+
+begin iteration = 354
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 354, log [P(observation | lambda)] = -147156.536284
+
+begin iteration = 355
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 355, log [P(observation | lambda)] = -147137.729700
+
+begin iteration = 356
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 356, log [P(observation | lambda)] = -147119.046902
+
+begin iteration = 357
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 357, log [P(observation | lambda)] = -147100.486673
+
+begin iteration = 358
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 358, log [P(observation | lambda)] = -147082.047808
+
+begin iteration = 359
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 359, log [P(observation | lambda)] = -147063.729119
+
+begin iteration = 360
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 360, log [P(observation | lambda)] = -147045.529435
+
+begin iteration = 361
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 361, log [P(observation | lambda)] = -147027.447597
+
+begin iteration = 362
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 362, log [P(observation | lambda)] = -147009.482461
+
+begin iteration = 363
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 363, log [P(observation | lambda)] = -146991.632900
+
+begin iteration = 364
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 364, log [P(observation | lambda)] = -146973.897799
+
+begin iteration = 365
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 365, log [P(observation | lambda)] = -146956.276058
+
+begin iteration = 366
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 366, log [P(observation | lambda)] = -146938.766591
+
+begin iteration = 367
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 367, log [P(observation | lambda)] = -146921.368326
+
+begin iteration = 368
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 368, log [P(observation | lambda)] = -146904.080204
+
+begin iteration = 369
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 369, log [P(observation | lambda)] = -146886.901179
+
+begin iteration = 370
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 370, log [P(observation | lambda)] = -146869.830221
+
+begin iteration = 371
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 371, log [P(observation | lambda)] = -146852.866309
+
+begin iteration = 372
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 372, log [P(observation | lambda)] = -146836.008438
+
+begin iteration = 373
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 373, log [P(observation | lambda)] = -146819.255614
+
+begin iteration = 374
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 374, log [P(observation | lambda)] = -146802.606857
+
+begin iteration = 375
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 375, log [P(observation | lambda)] = -146786.061197
+
+begin iteration = 376
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 376, log [P(observation | lambda)] = -146769.617678
+
+begin iteration = 377
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 377, log [P(observation | lambda)] = -146753.275357
+
+begin iteration = 378
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 378, log [P(observation | lambda)] = -146737.033299
+
+begin iteration = 379
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 379, log [P(observation | lambda)] = -146720.890586
+
+begin iteration = 380
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 380, log [P(observation | lambda)] = -146704.846306
+
+begin iteration = 381
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 381, log [P(observation | lambda)] = -146688.899562
+
+begin iteration = 382
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 382, log [P(observation | lambda)] = -146673.049467
+
+begin iteration = 383
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 383, log [P(observation | lambda)] = -146657.295146
+
+begin iteration = 384
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 384, log [P(observation | lambda)] = -146641.635733
+
+begin iteration = 385
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 385, log [P(observation | lambda)] = -146626.070373
+
+begin iteration = 386
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 386, log [P(observation | lambda)] = -146610.598225
+
+begin iteration = 387
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 387, log [P(observation | lambda)] = -146595.218453
+
+begin iteration = 388
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 388, log [P(observation | lambda)] = -146579.930235
+
+begin iteration = 389
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 389, log [P(observation | lambda)] = -146564.732758
+
+begin iteration = 390
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 390, log [P(observation | lambda)] = -146549.625220
+
+begin iteration = 391
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 391, log [P(observation | lambda)] = -146534.606826
+
+begin iteration = 392
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 392, log [P(observation | lambda)] = -146519.676794
+
+begin iteration = 393
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 393, log [P(observation | lambda)] = -146504.834350
+
+begin iteration = 394
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 394, log [P(observation | lambda)] = -146490.078730
+
+begin iteration = 395
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 395, log [P(observation | lambda)] = -146475.409177
+
+begin iteration = 396
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 396, log [P(observation | lambda)] = -146460.824947
+
+begin iteration = 397
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 397, log [P(observation | lambda)] = -146446.325302
+
+begin iteration = 398
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 398, log [P(observation | lambda)] = -146431.909514
+
+begin iteration = 399
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 399, log [P(observation | lambda)] = -146417.576864
+
+begin iteration = 400
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 400, log [P(observation | lambda)] = -146403.326641
+
+begin iteration = 401
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 401, log [P(observation | lambda)] = -146389.158142
+
+begin iteration = 402
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 402, log [P(observation | lambda)] = -146375.070675
+
+begin iteration = 403
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 403, log [P(observation | lambda)] = -146361.063553
+
+begin iteration = 404
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 404, log [P(observation | lambda)] = -146347.136099
+
+begin iteration = 405
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 405, log [P(observation | lambda)] = -146333.287644
+
+begin iteration = 406
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 406, log [P(observation | lambda)] = -146319.517525
+
+begin iteration = 407
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 407, log [P(observation | lambda)] = -146305.825090
+
+begin iteration = 408
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 408, log [P(observation | lambda)] = -146292.209692
+
+begin iteration = 409
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 409, log [P(observation | lambda)] = -146278.670694
+
+begin iteration = 410
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 410, log [P(observation | lambda)] = -146265.207463
+
+begin iteration = 411
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 411, log [P(observation | lambda)] = -146251.819376
+
+begin iteration = 412
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 412, log [P(observation | lambda)] = -146238.505817
+
+begin iteration = 413
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 413, log [P(observation | lambda)] = -146225.266177
+
+begin iteration = 414
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 414, log [P(observation | lambda)] = -146212.099853
+
+begin iteration = 415
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 415, log [P(observation | lambda)] = -146199.006250
+
+begin iteration = 416
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 416, log [P(observation | lambda)] = -146185.984780
+
+begin iteration = 417
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 417, log [P(observation | lambda)] = -146173.034861
+
+begin iteration = 418
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 418, log [P(observation | lambda)] = -146160.155918
+
+begin iteration = 419
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 419, log [P(observation | lambda)] = -146147.347382
+
+begin iteration = 420
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 420, log [P(observation | lambda)] = -146134.608691
+
+begin iteration = 421
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 421, log [P(observation | lambda)] = -146121.939290
+
+begin iteration = 422
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 422, log [P(observation | lambda)] = -146109.338629
+
+begin iteration = 423
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 423, log [P(observation | lambda)] = -146096.806165
+
+begin iteration = 424
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 424, log [P(observation | lambda)] = -146084.341361
+
+begin iteration = 425
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 425, log [P(observation | lambda)] = -146071.943685
+
+begin iteration = 426
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 426, log [P(observation | lambda)] = -146059.612612
+
+begin iteration = 427
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 427, log [P(observation | lambda)] = -146047.347622
+
+begin iteration = 428
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 428, log [P(observation | lambda)] = -146035.148203
+
+begin iteration = 429
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 429, log [P(observation | lambda)] = -146023.013846
+
+begin iteration = 430
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 430, log [P(observation | lambda)] = -146010.944048
+
+begin iteration = 431
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 431, log [P(observation | lambda)] = -145998.938312
+
+begin iteration = 432
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 432, log [P(observation | lambda)] = -145986.996148
+
+begin iteration = 433
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 433, log [P(observation | lambda)] = -145975.117068
+
+begin iteration = 434
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 434, log [P(observation | lambda)] = -145963.300592
+
+begin iteration = 435
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 435, log [P(observation | lambda)] = -145951.546244
+
+begin iteration = 436
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 436, log [P(observation | lambda)] = -145939.853553
+
+begin iteration = 437
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 437, log [P(observation | lambda)] = -145928.222054
+
+begin iteration = 438
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 438, log [P(observation | lambda)] = -145916.651286
+
+begin iteration = 439
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 439, log [P(observation | lambda)] = -145905.140794
+
+begin iteration = 440
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 440, log [P(observation | lambda)] = -145893.690127
+
+begin iteration = 441
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 441, log [P(observation | lambda)] = -145882.298838
+
+begin iteration = 442
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 442, log [P(observation | lambda)] = -145870.966486
+
+begin iteration = 443
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 443, log [P(observation | lambda)] = -145859.692635
+
+begin iteration = 444
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 444, log [P(observation | lambda)] = -145848.476852
+
+begin iteration = 445
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 445, log [P(observation | lambda)] = -145837.318710
+
+begin iteration = 446
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 446, log [P(observation | lambda)] = -145826.217785
+
+begin iteration = 447
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 447, log [P(observation | lambda)] = -145815.173659
+
+begin iteration = 448
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 448, log [P(observation | lambda)] = -145804.185917
+
+begin iteration = 449
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 449, log [P(observation | lambda)] = -145793.254149
+
+begin iteration = 450
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 450, log [P(observation | lambda)] = -145782.377948
+
+begin iteration = 451
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 451, log [P(observation | lambda)] = -145771.556913
+
+begin iteration = 452
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 452, log [P(observation | lambda)] = -145760.790647
+
+begin iteration = 453
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 453, log [P(observation | lambda)] = -145750.078755
+
+begin iteration = 454
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 454, log [P(observation | lambda)] = -145739.420847
+
+begin iteration = 455
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 455, log [P(observation | lambda)] = -145728.816538
+
+begin iteration = 456
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 456, log [P(observation | lambda)] = -145718.265446
+
+begin iteration = 457
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 457, log [P(observation | lambda)] = -145707.767192
+
+begin iteration = 458
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 458, log [P(observation | lambda)] = -145697.321402
+
+begin iteration = 459
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 459, log [P(observation | lambda)] = -145686.927705
+
+begin iteration = 460
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 460, log [P(observation | lambda)] = -145676.585735
+
+begin iteration = 461
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 461, log [P(observation | lambda)] = -145666.295128
+
+begin iteration = 462
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 462, log [P(observation | lambda)] = -145656.055523
+
+begin iteration = 463
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 463, log [P(observation | lambda)] = -145645.866566
+
+begin iteration = 464
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 464, log [P(observation | lambda)] = -145635.727902
+
+begin iteration = 465
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 465, log [P(observation | lambda)] = -145625.639183
+
+begin iteration = 466
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 466, log [P(observation | lambda)] = -145615.600062
+
+begin iteration = 467
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 467, log [P(observation | lambda)] = -145605.610197
+
+begin iteration = 468
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 468, log [P(observation | lambda)] = -145595.669248
+
+begin iteration = 469
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 469, log [P(observation | lambda)] = -145585.776879
+
+begin iteration = 470
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 470, log [P(observation | lambda)] = -145575.932758
+
+begin iteration = 471
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 471, log [P(observation | lambda)] = -145566.136554
+
+begin iteration = 472
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 472, log [P(observation | lambda)] = -145556.387940
+
+begin iteration = 473
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 473, log [P(observation | lambda)] = -145546.686594
+
+begin iteration = 474
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 474, log [P(observation | lambda)] = -145537.032194
+
+begin iteration = 475
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 475, log [P(observation | lambda)] = -145527.424423
+
+begin iteration = 476
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 476, log [P(observation | lambda)] = -145517.862967
+
+begin iteration = 477
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 477, log [P(observation | lambda)] = -145508.347514
+
+begin iteration = 478
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 478, log [P(observation | lambda)] = -145498.877754
+
+begin iteration = 479
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 479, log [P(observation | lambda)] = -145489.453383
+
+begin iteration = 480
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 480, log [P(observation | lambda)] = -145480.074097
+
+begin iteration = 481
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 481, log [P(observation | lambda)] = -145470.739596
+
+begin iteration = 482
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 482, log [P(observation | lambda)] = -145461.449582
+
+begin iteration = 483
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 483, log [P(observation | lambda)] = -145452.203761
+
+begin iteration = 484
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 484, log [P(observation | lambda)] = -145443.001840
+
+begin iteration = 485
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 485, log [P(observation | lambda)] = -145433.843529
+
+begin iteration = 486
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 486, log [P(observation | lambda)] = -145424.728543
+
+begin iteration = 487
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 487, log [P(observation | lambda)] = -145415.656596
+
+begin iteration = 488
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 488, log [P(observation | lambda)] = -145406.627407
+
+begin iteration = 489
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 489, log [P(observation | lambda)] = -145397.640696
+
+begin iteration = 490
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 490, log [P(observation | lambda)] = -145388.696188
+
+begin iteration = 491
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 491, log [P(observation | lambda)] = -145379.793606
+
+begin iteration = 492
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 492, log [P(observation | lambda)] = -145370.932680
+
+begin iteration = 493
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 493, log [P(observation | lambda)] = -145362.113140
+
+begin iteration = 494
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 494, log [P(observation | lambda)] = -145353.334720
+
+begin iteration = 495
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 495, log [P(observation | lambda)] = -145344.597153
+
+begin iteration = 496
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 496, log [P(observation | lambda)] = -145335.900178
+
+begin iteration = 497
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 497, log [P(observation | lambda)] = -145327.243534
+
+begin iteration = 498
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 498, log [P(observation | lambda)] = -145318.626964
+
+begin iteration = 499
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 499, log [P(observation | lambda)] = -145310.050212
+
+begin iteration = 500
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 500, log [P(observation | lambda)] = -145301.513024
+
+begin iteration = 501
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 501, log [P(observation | lambda)] = -145293.015149
+
+begin iteration = 502
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 502, log [P(observation | lambda)] = -145284.556338
+
+begin iteration = 503
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 503, log [P(observation | lambda)] = -145276.136343
+
+begin iteration = 504
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 504, log [P(observation | lambda)] = -145267.754920
+
+begin iteration = 505
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 505, log [P(observation | lambda)] = -145259.411826
+
+begin iteration = 506
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 506, log [P(observation | lambda)] = -145251.106821
+
+begin iteration = 507
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 507, log [P(observation | lambda)] = -145242.839664
+
+begin iteration = 508
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 508, log [P(observation | lambda)] = -145234.610120
+
+begin iteration = 509
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 509, log [P(observation | lambda)] = -145226.417953
+
+begin iteration = 510
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 510, log [P(observation | lambda)] = -145218.262931
+
+begin iteration = 511
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 511, log [P(observation | lambda)] = -145210.144823
+
+begin iteration = 512
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 512, log [P(observation | lambda)] = -145202.063399
+
+begin iteration = 513
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 513, log [P(observation | lambda)] = -145194.018434
+
+begin iteration = 514
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 514, log [P(observation | lambda)] = -145186.009700
+
+begin iteration = 515
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 515, log [P(observation | lambda)] = -145178.036976
+
+begin iteration = 516
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 516, log [P(observation | lambda)] = -145170.100039
+
+begin iteration = 517
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 517, log [P(observation | lambda)] = -145162.198670
+
+begin iteration = 518
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 518, log [P(observation | lambda)] = -145154.332651
+
+begin iteration = 519
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 519, log [P(observation | lambda)] = -145146.501765
+
+begin iteration = 520
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 520, log [P(observation | lambda)] = -145138.705798
+
+begin iteration = 521
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 521, log [P(observation | lambda)] = -145130.944538
+
+begin iteration = 522
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 522, log [P(observation | lambda)] = -145123.217773
+
+begin iteration = 523
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 523, log [P(observation | lambda)] = -145115.525294
+
+begin iteration = 524
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 524, log [P(observation | lambda)] = -145107.866893
+
+begin iteration = 525
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 525, log [P(observation | lambda)] = -145100.242365
+
+begin iteration = 526
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 526, log [P(observation | lambda)] = -145092.651505
+
+begin iteration = 527
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 527, log [P(observation | lambda)] = -145085.094110
+
+begin iteration = 528
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 528, log [P(observation | lambda)] = -145077.569979
+
+begin iteration = 529
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 529, log [P(observation | lambda)] = -145070.078913
+
+begin iteration = 530
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 530, log [P(observation | lambda)] = -145062.620714
+
+begin iteration = 531
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 531, log [P(observation | lambda)] = -145055.195185
+
+begin iteration = 532
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 532, log [P(observation | lambda)] = -145047.802132
+
+begin iteration = 533
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 533, log [P(observation | lambda)] = -145040.441360
+
+begin iteration = 534
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 534, log [P(observation | lambda)] = -145033.112679
+
+begin iteration = 535
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 535, log [P(observation | lambda)] = -145025.815898
+
+begin iteration = 536
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 536, log [P(observation | lambda)] = -145018.550828
+
+begin iteration = 537
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 537, log [P(observation | lambda)] = -145011.317281
+
+begin iteration = 538
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 538, log [P(observation | lambda)] = -145004.115072
+
+begin iteration = 539
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 539, log [P(observation | lambda)] = -144996.944016
+
+begin iteration = 540
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 540, log [P(observation | lambda)] = -144989.803929
+
+begin iteration = 541
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 541, log [P(observation | lambda)] = -144982.694631
+
+begin iteration = 542
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 542, log [P(observation | lambda)] = -144975.615941
+
+begin iteration = 543
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 543, log [P(observation | lambda)] = -144968.567679
+
+begin iteration = 544
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 544, log [P(observation | lambda)] = -144961.549668
+
+begin iteration = 545
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 545, log [P(observation | lambda)] = -144954.561732
+
+begin iteration = 546
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 546, log [P(observation | lambda)] = -144947.603696
+
+begin iteration = 547
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 547, log [P(observation | lambda)] = -144940.675387
+
+begin iteration = 548
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 548, log [P(observation | lambda)] = -144933.776631
+
+begin iteration = 549
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 549, log [P(observation | lambda)] = -144926.907258
+
+begin iteration = 550
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 550, log [P(observation | lambda)] = -144920.067098
+
+begin iteration = 551
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 551, log [P(observation | lambda)] = -144913.255982
+
+begin iteration = 552
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 552, log [P(observation | lambda)] = -144906.473744
+
+begin iteration = 553
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 553, log [P(observation | lambda)] = -144899.720217
+
+begin iteration = 554
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 554, log [P(observation | lambda)] = -144892.995237
+
+begin iteration = 555
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 555, log [P(observation | lambda)] = -144886.298639
+
+begin iteration = 556
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 556, log [P(observation | lambda)] = -144879.630262
+
+begin iteration = 557
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 557, log [P(observation | lambda)] = -144872.989944
+
+begin iteration = 558
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 558, log [P(observation | lambda)] = -144866.377526
+
+begin iteration = 559
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 559, log [P(observation | lambda)] = -144859.792848
+
+begin iteration = 560
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 560, log [P(observation | lambda)] = -144853.235752
+
+begin iteration = 561
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 561, log [P(observation | lambda)] = -144846.706083
+
+begin iteration = 562
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 562, log [P(observation | lambda)] = -144840.203686
+
+begin iteration = 563
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 563, log [P(observation | lambda)] = -144833.728404
+
+begin iteration = 564
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 564, log [P(observation | lambda)] = -144827.280086
+
+begin iteration = 565
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 565, log [P(observation | lambda)] = -144820.858580
+
+begin iteration = 566
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 566, log [P(observation | lambda)] = -144814.463734
+
+begin iteration = 567
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 567, log [P(observation | lambda)] = -144808.095399
+
+begin iteration = 568
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 568, log [P(observation | lambda)] = -144801.753426
+
+begin iteration = 569
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 569, log [P(observation | lambda)] = -144795.437667
+
+begin iteration = 570
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 570, log [P(observation | lambda)] = -144789.147975
+
+begin iteration = 571
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 571, log [P(observation | lambda)] = -144782.884205
+
+begin iteration = 572
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 572, log [P(observation | lambda)] = -144776.646213
+
+begin iteration = 573
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 573, log [P(observation | lambda)] = -144770.433854
+
+begin iteration = 574
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 574, log [P(observation | lambda)] = -144764.246986
+
+begin iteration = 575
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 575, log [P(observation | lambda)] = -144758.085468
+
+begin iteration = 576
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 576, log [P(observation | lambda)] = -144751.949159
+
+begin iteration = 577
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 577, log [P(observation | lambda)] = -144745.837919
+
+begin iteration = 578
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 578, log [P(observation | lambda)] = -144739.751610
+
+begin iteration = 579
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 579, log [P(observation | lambda)] = -144733.690095
+
+begin iteration = 580
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 580, log [P(observation | lambda)] = -144727.653236
+
+begin iteration = 581
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 581, log [P(observation | lambda)] = -144721.640898
+
+begin iteration = 582
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 582, log [P(observation | lambda)] = -144715.652946
+
+begin iteration = 583
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 583, log [P(observation | lambda)] = -144709.689246
+
+begin iteration = 584
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 584, log [P(observation | lambda)] = -144703.749666
+
+begin iteration = 585
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 585, log [P(observation | lambda)] = -144697.834074
+
+begin iteration = 586
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 586, log [P(observation | lambda)] = -144691.942338
+
+begin iteration = 587
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 587, log [P(observation | lambda)] = -144686.074328
+
+begin iteration = 588
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 588, log [P(observation | lambda)] = -144680.229915
+
+begin iteration = 589
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 589, log [P(observation | lambda)] = -144674.408971
+
+begin iteration = 590
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 590, log [P(observation | lambda)] = -144668.611368
+
+begin iteration = 591
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 591, log [P(observation | lambda)] = -144662.836979
+
+begin iteration = 592
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 592, log [P(observation | lambda)] = -144657.085680
+
+begin iteration = 593
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 593, log [P(observation | lambda)] = -144651.357344
+
+begin iteration = 594
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 594, log [P(observation | lambda)] = -144645.651848
+
+begin iteration = 595
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 595, log [P(observation | lambda)] = -144639.969068
+
+begin iteration = 596
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 596, log [P(observation | lambda)] = -144634.308883
+
+begin iteration = 597
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 597, log [P(observation | lambda)] = -144628.671171
+
+begin iteration = 598
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 598, log [P(observation | lambda)] = -144623.055810
+
+begin iteration = 599
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 599, log [P(observation | lambda)] = -144617.462682
+
+begin iteration = 600
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 600, log [P(observation | lambda)] = -144611.891667
+
+begin iteration = 601
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 601, log [P(observation | lambda)] = -144606.342646
+
+begin iteration = 602
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 602, log [P(observation | lambda)] = -144600.815502
+
+begin iteration = 603
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 603, log [P(observation | lambda)] = -144595.310119
+
+begin iteration = 604
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 604, log [P(observation | lambda)] = -144589.826381
+
+begin iteration = 605
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 605, log [P(observation | lambda)] = -144584.364171
+
+begin iteration = 606
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 606, log [P(observation | lambda)] = -144578.923377
+
+begin iteration = 607
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 607, log [P(observation | lambda)] = -144573.503884
+
+begin iteration = 608
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 608, log [P(observation | lambda)] = -144568.105579
+
+begin iteration = 609
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 609, log [P(observation | lambda)] = -144562.728351
+
+begin iteration = 610
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 610, log [P(observation | lambda)] = -144557.372087
+
+begin iteration = 611
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 611, log [P(observation | lambda)] = -144552.036678
+
+begin iteration = 612
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 612, log [P(observation | lambda)] = -144546.722013
+
+begin iteration = 613
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 613, log [P(observation | lambda)] = -144541.427983
+
+begin iteration = 614
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 614, log [P(observation | lambda)] = -144536.154480
+
+begin iteration = 615
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 615, log [P(observation | lambda)] = -144530.901395
+
+begin iteration = 616
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 616, log [P(observation | lambda)] = -144525.668622
+
+begin iteration = 617
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 617, log [P(observation | lambda)] = -144520.456055
+
+begin iteration = 618
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 618, log [P(observation | lambda)] = -144515.263587
+
+begin iteration = 619
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 619, log [P(observation | lambda)] = -144510.091114
+
+begin iteration = 620
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 620, log [P(observation | lambda)] = -144504.938531
+
+begin iteration = 621
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 621, log [P(observation | lambda)] = -144499.805735
+
+begin iteration = 622
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 622, log [P(observation | lambda)] = -144494.692623
+
+begin iteration = 623
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 623, log [P(observation | lambda)] = -144489.599092
+
+begin iteration = 624
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 624, log [P(observation | lambda)] = -144484.525042
+
+begin iteration = 625
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 625, log [P(observation | lambda)] = -144479.470370
+
+begin iteration = 626
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 626, log [P(observation | lambda)] = -144474.434977
+
+begin iteration = 627
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 627, log [P(observation | lambda)] = -144469.418763
+
+begin iteration = 628
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 628, log [P(observation | lambda)] = -144464.421628
+
+begin iteration = 629
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 629, log [P(observation | lambda)] = -144459.443476
+
+begin iteration = 630
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 630, log [P(observation | lambda)] = -144454.484206
+
+begin iteration = 631
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 631, log [P(observation | lambda)] = -144449.543724
+
+begin iteration = 632
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 632, log [P(observation | lambda)] = -144444.621932
+
+begin iteration = 633
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 633, log [P(observation | lambda)] = -144439.718734
+
+begin iteration = 634
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 634, log [P(observation | lambda)] = -144434.834034
+
+begin iteration = 635
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 635, log [P(observation | lambda)] = -144429.967739
+
+begin iteration = 636
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 636, log [P(observation | lambda)] = -144425.119755
+
+begin iteration = 637
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 637, log [P(observation | lambda)] = -144420.289986
+
+begin iteration = 638
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 638, log [P(observation | lambda)] = -144415.478342
+
+begin iteration = 639
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 639, log [P(observation | lambda)] = -144410.684729
+
+begin iteration = 640
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 640, log [P(observation | lambda)] = -144405.909056
+
+begin iteration = 641
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 641, log [P(observation | lambda)] = -144401.151231
+
+begin iteration = 642
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 642, log [P(observation | lambda)] = -144396.411164
+
+begin iteration = 643
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 643, log [P(observation | lambda)] = -144391.688766
+
+begin iteration = 644
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 644, log [P(observation | lambda)] = -144386.983946
+
+begin iteration = 645
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 645, log [P(observation | lambda)] = -144382.296616
+
+begin iteration = 646
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 646, log [P(observation | lambda)] = -144377.626687
+
+begin iteration = 647
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 647, log [P(observation | lambda)] = -144372.974071
+
+begin iteration = 648
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 648, log [P(observation | lambda)] = -144368.338683
+
+begin iteration = 649
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 649, log [P(observation | lambda)] = -144363.720433
+
+begin iteration = 650
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 650, log [P(observation | lambda)] = -144359.119238
+
+begin iteration = 651
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 651, log [P(observation | lambda)] = -144354.535011
+
+begin iteration = 652
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 652, log [P(observation | lambda)] = -144349.967666
+
+begin iteration = 653
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 653, log [P(observation | lambda)] = -144345.417120
+
+begin iteration = 654
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 654, log [P(observation | lambda)] = -144340.883289
+
+begin iteration = 655
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 655, log [P(observation | lambda)] = -144336.366088
+
+begin iteration = 656
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 656, log [P(observation | lambda)] = -144331.865435
+
+begin iteration = 657
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 657, log [P(observation | lambda)] = -144327.381248
+
+begin iteration = 658
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 658, log [P(observation | lambda)] = -144322.913444
+
+begin iteration = 659
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 659, log [P(observation | lambda)] = -144318.461943
+
+begin iteration = 660
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 660, log [P(observation | lambda)] = -144314.026662
+
+begin iteration = 661
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 661, log [P(observation | lambda)] = -144309.607523
+
+begin iteration = 662
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 662, log [P(observation | lambda)] = -144305.204444
+
+begin iteration = 663
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 663, log [P(observation | lambda)] = -144300.817346
+
+begin iteration = 664
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 664, log [P(observation | lambda)] = -144296.446150
+
+begin iteration = 665
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 665, log [P(observation | lambda)] = -144292.090779
+
+begin iteration = 666
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 666, log [P(observation | lambda)] = -144287.751153
+
+begin iteration = 667
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 667, log [P(observation | lambda)] = -144283.427195
+
+begin iteration = 668
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 668, log [P(observation | lambda)] = -144279.118828
+
+begin iteration = 669
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 669, log [P(observation | lambda)] = -144274.825976
+
+begin iteration = 670
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 670, log [P(observation | lambda)] = -144270.548563
+
+begin iteration = 671
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 671, log [P(observation | lambda)] = -144266.286512
+
+begin iteration = 672
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 672, log [P(observation | lambda)] = -144262.039749
+
+begin iteration = 673
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 673, log [P(observation | lambda)] = -144257.808198
+
+begin iteration = 674
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 674, log [P(observation | lambda)] = -144253.591786
+
+begin iteration = 675
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 675, log [P(observation | lambda)] = -144249.390438
+
+begin iteration = 676
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 676, log [P(observation | lambda)] = -144245.204082
+
+begin iteration = 677
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 677, log [P(observation | lambda)] = -144241.032643
+
+begin iteration = 678
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 678, log [P(observation | lambda)] = -144236.876051
+
+begin iteration = 679
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 679, log [P(observation | lambda)] = -144232.734231
+
+begin iteration = 680
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 680, log [P(observation | lambda)] = -144228.607114
+
+begin iteration = 681
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 681, log [P(observation | lambda)] = -144224.494628
+
+begin iteration = 682
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 682, log [P(observation | lambda)] = -144220.396701
+
+begin iteration = 683
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 683, log [P(observation | lambda)] = -144216.313263
+
+begin iteration = 684
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 684, log [P(observation | lambda)] = -144212.244245
+
+begin iteration = 685
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 685, log [P(observation | lambda)] = -144208.189577
+
+begin iteration = 686
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 686, log [P(observation | lambda)] = -144204.149190
+
+begin iteration = 687
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 687, log [P(observation | lambda)] = -144200.123015
+
+begin iteration = 688
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 688, log [P(observation | lambda)] = -144196.110983
+
+begin iteration = 689
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 689, log [P(observation | lambda)] = -144192.113027
+
+begin iteration = 690
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 690, log [P(observation | lambda)] = -144188.129080
+
+begin iteration = 691
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 691, log [P(observation | lambda)] = -144184.159073
+
+begin iteration = 692
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 692, log [P(observation | lambda)] = -144180.202942
+
+begin iteration = 693
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 693, log [P(observation | lambda)] = -144176.260618
+
+begin iteration = 694
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 694, log [P(observation | lambda)] = -144172.332036
+
+begin iteration = 695
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 695, log [P(observation | lambda)] = -144168.417131
+
+begin iteration = 696
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 696, log [P(observation | lambda)] = -144164.515838
+
+begin iteration = 697
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 697, log [P(observation | lambda)] = -144160.628091
+
+begin iteration = 698
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 698, log [P(observation | lambda)] = -144156.753827
+
+begin iteration = 699
+alpha pass... done
+beta pass... done
+compute gamma's and diGamma's... done
+completed iteration = 699, log [P(observation | lambda)] = -144152.892981
+
+T = 50000, N = 2, M = 27, iterations = 700
+
+final pi =
+ 0.47879  0.52121 ,  sum = 1.000000
+
+final A =
+ 0.34551  0.65449 ,  sum = 1.000000
+ 0.00000  1.00000 ,  sum = 1.000000
+
+final B^T =
+a  0.03471  0.06191 
+b  0.03470  0.01577 
+c  0.03473  0.02633 
+d  0.03471  0.03118 
+e  0.03471  0.09971 
+f  0.03473  0.01930 
+g  0.03472  0.01704 
+h  0.03471  0.03285 
+i  0.03472  0.05376 
+j  0.03471  0.01114 
+k  0.03470  0.01230 
+l  0.03470  0.03312 
+m  0.03471  0.02039 
+n  0.03470  0.05209 
+o  0.03470  0.05841 
+p  0.03470  0.01972 
+q  0.03471  0.01077 
+r  0.03472  0.04574 
+s  0.03471  0.05032 
+t  0.03470  0.07249 
+u  0.03470  0.02154 
+v  0.03469  0.01399 
+w  0.03472  0.01574 
+x  0.03521  0.01137 
+y  0.03767  0.01641 
+z  0.03482  0.01068 
+   0.09400  0.16592 
+sum[0] = 1.000000 sum[1] = 1.000000 
+
+log [P(observations | lambda)] = -144152.892981
+
+(base) Yashs-MBP:Assignment6 yash$ 

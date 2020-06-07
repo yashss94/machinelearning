@@ -1,0 +1,709 @@
+Last login: Wed Apr 15 23:35:30 on ttys000
+(base) Yashs-MBP:~ yash$ cd Documents/CS271\ ML/Assignments/Assignment7
+(base) Yashs-MBP:Assignment7 yash$ gcc -o hmm hmm.c
+(base) Yashs-MBP:Assignment7 yash$ ./hmm BrownCorpus 15 1000 50000 200 44532
+
+begin iteration = 0
+completed iteration = 0, log [P(observation | lambda)] = -165106.502646
+
+begin iteration = 1
+completed iteration = 1, log [P(observation | lambda)] = -142257.256345
+
+begin iteration = 2
+completed iteration = 2, log [P(observation | lambda)] = -142257.239598
+
+begin iteration = 3
+completed iteration = 3, log [P(observation | lambda)] = -142257.222083
+
+begin iteration = 4
+completed iteration = 4, log [P(observation | lambda)] = -142257.203746
+
+begin iteration = 5
+completed iteration = 5, log [P(observation | lambda)] = -142257.184526
+
+begin iteration = 6
+completed iteration = 6, log [P(observation | lambda)] = -142257.164354
+
+begin iteration = 7
+completed iteration = 7, log [P(observation | lambda)] = -142257.143158
+
+begin iteration = 8
+completed iteration = 8, log [P(observation | lambda)] = -142257.120856
+
+begin iteration = 9
+completed iteration = 9, log [P(observation | lambda)] = -142257.097358
+
+begin iteration = 10
+completed iteration = 10, log [P(observation | lambda)] = -142257.072565
+
+begin iteration = 11
+completed iteration = 11, log [P(observation | lambda)] = -142257.046366
+
+begin iteration = 12
+completed iteration = 12, log [P(observation | lambda)] = -142257.018638
+
+begin iteration = 13
+completed iteration = 13, log [P(observation | lambda)] = -142256.989244
+
+begin iteration = 14
+completed iteration = 14, log [P(observation | lambda)] = -142256.958031
+
+begin iteration = 15
+completed iteration = 15, log [P(observation | lambda)] = -142256.924829
+
+begin iteration = 16
+completed iteration = 16, log [P(observation | lambda)] = -142256.889445
+
+begin iteration = 17
+completed iteration = 17, log [P(observation | lambda)] = -142256.851666
+
+begin iteration = 18
+completed iteration = 18, log [P(observation | lambda)] = -142256.811252
+
+begin iteration = 19
+completed iteration = 19, log [P(observation | lambda)] = -142256.767932
+
+begin iteration = 20
+completed iteration = 20, log [P(observation | lambda)] = -142256.721402
+
+begin iteration = 21
+completed iteration = 21, log [P(observation | lambda)] = -142256.671318
+
+begin iteration = 22
+completed iteration = 22, log [P(observation | lambda)] = -142256.617294
+
+begin iteration = 23
+completed iteration = 23, log [P(observation | lambda)] = -142256.558888
+
+begin iteration = 24
+completed iteration = 24, log [P(observation | lambda)] = -142256.495603
+
+begin iteration = 25
+completed iteration = 25, log [P(observation | lambda)] = -142256.426870
+
+begin iteration = 26
+completed iteration = 26, log [P(observation | lambda)] = -142256.352040
+
+begin iteration = 27
+completed iteration = 27, log [P(observation | lambda)] = -142256.270371
+
+begin iteration = 28
+completed iteration = 28, log [P(observation | lambda)] = -142256.181009
+
+begin iteration = 29
+completed iteration = 29, log [P(observation | lambda)] = -142256.082971
+
+begin iteration = 30
+completed iteration = 30, log [P(observation | lambda)] = -142255.975120
+
+begin iteration = 31
+completed iteration = 31, log [P(observation | lambda)] = -142255.856137
+
+begin iteration = 32
+completed iteration = 32, log [P(observation | lambda)] = -142255.724483
+
+begin iteration = 33
+completed iteration = 33, log [P(observation | lambda)] = -142255.578359
+
+begin iteration = 34
+completed iteration = 34, log [P(observation | lambda)] = -142255.415652
+
+begin iteration = 35
+completed iteration = 35, log [P(observation | lambda)] = -142255.233864
+
+begin iteration = 36
+completed iteration = 36, log [P(observation | lambda)] = -142255.030038
+
+begin iteration = 37
+completed iteration = 37, log [P(observation | lambda)] = -142254.800645
+
+begin iteration = 38
+completed iteration = 38, log [P(observation | lambda)] = -142254.541458
+
+begin iteration = 39
+completed iteration = 39, log [P(observation | lambda)] = -142254.247385
+
+begin iteration = 40
+completed iteration = 40, log [P(observation | lambda)] = -142253.912251
+
+begin iteration = 41
+completed iteration = 41, log [P(observation | lambda)] = -142253.528528
+
+begin iteration = 42
+completed iteration = 42, log [P(observation | lambda)] = -142253.086969
+
+begin iteration = 43
+completed iteration = 43, log [P(observation | lambda)] = -142252.576142
+
+begin iteration = 44
+completed iteration = 44, log [P(observation | lambda)] = -142251.981804
+
+begin iteration = 45
+completed iteration = 45, log [P(observation | lambda)] = -142251.286062
+
+begin iteration = 46
+completed iteration = 46, log [P(observation | lambda)] = -142250.466253
+
+begin iteration = 47
+completed iteration = 47, log [P(observation | lambda)] = -142249.493395
+
+begin iteration = 48
+completed iteration = 48, log [P(observation | lambda)] = -142248.330063
+
+begin iteration = 49
+completed iteration = 49, log [P(observation | lambda)] = -142246.927408
+
+begin iteration = 50
+completed iteration = 50, log [P(observation | lambda)] = -142245.220926
+
+begin iteration = 51
+completed iteration = 51, log [P(observation | lambda)] = -142243.124380
+
+begin iteration = 52
+completed iteration = 52, log [P(observation | lambda)] = -142240.520899
+
+begin iteration = 53
+completed iteration = 53, log [P(observation | lambda)] = -142237.249766
+
+begin iteration = 54
+completed iteration = 54, log [P(observation | lambda)] = -142233.086412
+
+begin iteration = 55
+completed iteration = 55, log [P(observation | lambda)] = -142227.711574
+
+begin iteration = 56
+completed iteration = 56, log [P(observation | lambda)] = -142220.662742
+
+begin iteration = 57
+completed iteration = 57, log [P(observation | lambda)] = -142211.256102
+
+begin iteration = 58
+completed iteration = 58, log [P(observation | lambda)] = -142198.458206
+
+begin iteration = 59
+completed iteration = 59, log [P(observation | lambda)] = -142180.670251
+
+begin iteration = 60
+completed iteration = 60, log [P(observation | lambda)] = -142155.357820
+
+begin iteration = 61
+completed iteration = 61, log [P(observation | lambda)] = -142118.404529
+
+begin iteration = 62
+completed iteration = 62, log [P(observation | lambda)] = -142062.975696
+
+begin iteration = 63
+completed iteration = 63, log [P(observation | lambda)] = -141977.550277
+
+begin iteration = 64
+completed iteration = 64, log [P(observation | lambda)] = -141842.735322
+
+begin iteration = 65
+completed iteration = 65, log [P(observation | lambda)] = -141627.138587
+
+begin iteration = 66
+completed iteration = 66, log [P(observation | lambda)] = -141286.049441
+
+begin iteration = 67
+completed iteration = 67, log [P(observation | lambda)] = -140776.466076
+
+begin iteration = 68
+completed iteration = 68, log [P(observation | lambda)] = -140109.137838
+
+begin iteration = 69
+completed iteration = 69, log [P(observation | lambda)] = -139408.204536
+
+begin iteration = 70
+completed iteration = 70, log [P(observation | lambda)] = -138849.028704
+
+begin iteration = 71
+completed iteration = 71, log [P(observation | lambda)] = -138489.168515
+
+begin iteration = 72
+completed iteration = 72, log [P(observation | lambda)] = -138250.575849
+
+begin iteration = 73
+completed iteration = 73, log [P(observation | lambda)] = -138032.144511
+
+begin iteration = 74
+completed iteration = 74, log [P(observation | lambda)] = -137753.888844
+
+begin iteration = 75
+completed iteration = 75, log [P(observation | lambda)] = -137344.497866
+
+begin iteration = 76
+completed iteration = 76, log [P(observation | lambda)] = -136757.923253
+
+begin iteration = 77
+completed iteration = 77, log [P(observation | lambda)] = -136040.729543
+
+begin iteration = 78
+completed iteration = 78, log [P(observation | lambda)] = -135344.775354
+
+begin iteration = 79
+completed iteration = 79, log [P(observation | lambda)] = -134793.069543
+
+begin iteration = 80
+completed iteration = 80, log [P(observation | lambda)] = -134390.576176
+
+begin iteration = 81
+completed iteration = 81, log [P(observation | lambda)] = -134087.603693
+
+begin iteration = 82
+completed iteration = 82, log [P(observation | lambda)] = -133844.487091
+
+begin iteration = 83
+completed iteration = 83, log [P(observation | lambda)] = -133640.652178
+
+begin iteration = 84
+completed iteration = 84, log [P(observation | lambda)] = -133466.169185
+
+begin iteration = 85
+completed iteration = 85, log [P(observation | lambda)] = -133315.665180
+
+begin iteration = 86
+completed iteration = 86, log [P(observation | lambda)] = -133185.481415
+
+begin iteration = 87
+completed iteration = 87, log [P(observation | lambda)] = -133072.520362
+
+begin iteration = 88
+completed iteration = 88, log [P(observation | lambda)] = -132973.973050
+
+begin iteration = 89
+completed iteration = 89, log [P(observation | lambda)] = -132887.466311
+
+begin iteration = 90
+completed iteration = 90, log [P(observation | lambda)] = -132811.286248
+
+begin iteration = 91
+completed iteration = 91, log [P(observation | lambda)] = -132744.435636
+
+begin iteration = 92
+completed iteration = 92, log [P(observation | lambda)] = -132686.432519
+
+begin iteration = 93
+completed iteration = 93, log [P(observation | lambda)] = -132636.922190
+
+begin iteration = 94
+completed iteration = 94, log [P(observation | lambda)] = -132595.270340
+
+begin iteration = 95
+completed iteration = 95, log [P(observation | lambda)] = -132560.289716
+
+begin iteration = 96
+completed iteration = 96, log [P(observation | lambda)] = -132530.285398
+
+begin iteration = 97
+completed iteration = 97, log [P(observation | lambda)] = -132503.961785
+
+begin iteration = 98
+completed iteration = 98, log [P(observation | lambda)] = -132481.708324
+
+begin iteration = 99
+completed iteration = 99, log [P(observation | lambda)] = -132464.197934
+
+begin iteration = 100
+completed iteration = 100, log [P(observation | lambda)] = -132450.606835
+
+begin iteration = 101
+completed iteration = 101, log [P(observation | lambda)] = -132439.665466
+
+begin iteration = 102
+completed iteration = 102, log [P(observation | lambda)] = -132430.498738
+
+begin iteration = 103
+completed iteration = 103, log [P(observation | lambda)] = -132422.573838
+
+begin iteration = 104
+completed iteration = 104, log [P(observation | lambda)] = -132415.552192
+
+begin iteration = 105
+completed iteration = 105, log [P(observation | lambda)] = -132409.210812
+
+begin iteration = 106
+completed iteration = 106, log [P(observation | lambda)] = -132403.394989
+
+begin iteration = 107
+completed iteration = 107, log [P(observation | lambda)] = -132397.987039
+
+begin iteration = 108
+completed iteration = 108, log [P(observation | lambda)] = -132392.891854
+
+begin iteration = 109
+completed iteration = 109, log [P(observation | lambda)] = -132388.034895
+
+begin iteration = 110
+completed iteration = 110, log [P(observation | lambda)] = -132383.363734
+
+begin iteration = 111
+completed iteration = 111, log [P(observation | lambda)] = -132378.847200
+
+begin iteration = 112
+completed iteration = 112, log [P(observation | lambda)] = -132374.470814
+
+begin iteration = 113
+completed iteration = 113, log [P(observation | lambda)] = -132370.229799
+
+begin iteration = 114
+completed iteration = 114, log [P(observation | lambda)] = -132366.121805
+
+begin iteration = 115
+completed iteration = 115, log [P(observation | lambda)] = -132362.141066
+
+begin iteration = 116
+completed iteration = 116, log [P(observation | lambda)] = -132358.274414
+
+begin iteration = 117
+completed iteration = 117, log [P(observation | lambda)] = -132354.498990
+
+begin iteration = 118
+completed iteration = 118, log [P(observation | lambda)] = -132350.783700
+
+begin iteration = 119
+completed iteration = 119, log [P(observation | lambda)] = -132347.098046
+
+begin iteration = 120
+completed iteration = 120, log [P(observation | lambda)] = -132343.426792
+
+begin iteration = 121
+completed iteration = 121, log [P(observation | lambda)] = -132339.780461
+
+begin iteration = 122
+completed iteration = 122, log [P(observation | lambda)] = -132336.191501
+
+begin iteration = 123
+completed iteration = 123, log [P(observation | lambda)] = -132332.697618
+
+begin iteration = 124
+completed iteration = 124, log [P(observation | lambda)] = -132329.325025
+
+begin iteration = 125
+completed iteration = 125, log [P(observation | lambda)] = -132326.081890
+
+begin iteration = 126
+completed iteration = 126, log [P(observation | lambda)] = -132322.961646
+
+begin iteration = 127
+completed iteration = 127, log [P(observation | lambda)] = -132319.950005
+
+begin iteration = 128
+completed iteration = 128, log [P(observation | lambda)] = -132317.030805
+
+begin iteration = 129
+completed iteration = 129, log [P(observation | lambda)] = -132314.189277
+
+begin iteration = 130
+completed iteration = 130, log [P(observation | lambda)] = -132311.413272
+
+begin iteration = 131
+completed iteration = 131, log [P(observation | lambda)] = -132308.693423
+
+begin iteration = 132
+completed iteration = 132, log [P(observation | lambda)] = -132306.022955
+
+begin iteration = 133
+completed iteration = 133, log [P(observation | lambda)] = -132303.397474
+
+begin iteration = 134
+completed iteration = 134, log [P(observation | lambda)] = -132300.814877
+
+begin iteration = 135
+completed iteration = 135, log [P(observation | lambda)] = -132298.275333
+
+begin iteration = 136
+completed iteration = 136, log [P(observation | lambda)] = -132295.781239
+
+begin iteration = 137
+completed iteration = 137, log [P(observation | lambda)] = -132293.336943
+
+begin iteration = 138
+completed iteration = 138, log [P(observation | lambda)] = -132290.948036
+
+begin iteration = 139
+completed iteration = 139, log [P(observation | lambda)] = -132288.620036
+
+begin iteration = 140
+completed iteration = 140, log [P(observation | lambda)] = -132286.356400
+
+begin iteration = 141
+completed iteration = 141, log [P(observation | lambda)] = -132284.155994
+
+begin iteration = 142
+completed iteration = 142, log [P(observation | lambda)] = -132282.010345
+
+begin iteration = 143
+completed iteration = 143, log [P(observation | lambda)] = -132279.901317
+
+begin iteration = 144
+completed iteration = 144, log [P(observation | lambda)] = -132277.800297
+
+begin iteration = 145
+completed iteration = 145, log [P(observation | lambda)] = -132275.670637
+
+begin iteration = 146
+completed iteration = 146, log [P(observation | lambda)] = -132273.475468
+
+begin iteration = 147
+completed iteration = 147, log [P(observation | lambda)] = -132271.191671
+
+begin iteration = 148
+completed iteration = 148, log [P(observation | lambda)] = -132268.826123
+
+begin iteration = 149
+completed iteration = 149, log [P(observation | lambda)] = -132266.423971
+
+begin iteration = 150
+completed iteration = 150, log [P(observation | lambda)] = -132264.058787
+
+begin iteration = 151
+completed iteration = 151, log [P(observation | lambda)] = -132261.807043
+
+begin iteration = 152
+completed iteration = 152, log [P(observation | lambda)] = -132259.723802
+
+begin iteration = 153
+completed iteration = 153, log [P(observation | lambda)] = -132257.834316
+
+begin iteration = 154
+completed iteration = 154, log [P(observation | lambda)] = -132256.140472
+
+begin iteration = 155
+completed iteration = 155, log [P(observation | lambda)] = -132254.631629
+
+begin iteration = 156
+completed iteration = 156, log [P(observation | lambda)] = -132253.292506
+
+begin iteration = 157
+completed iteration = 157, log [P(observation | lambda)] = -132252.106990
+
+begin iteration = 158
+completed iteration = 158, log [P(observation | lambda)] = -132251.059490
+
+begin iteration = 159
+completed iteration = 159, log [P(observation | lambda)] = -132250.135318
+
+begin iteration = 160
+completed iteration = 160, log [P(observation | lambda)] = -132249.320791
+
+begin iteration = 161
+completed iteration = 161, log [P(observation | lambda)] = -132248.603274
+
+begin iteration = 162
+completed iteration = 162, log [P(observation | lambda)] = -132247.971199
+
+begin iteration = 163
+completed iteration = 163, log [P(observation | lambda)] = -132247.414062
+
+begin iteration = 164
+completed iteration = 164, log [P(observation | lambda)] = -132246.922393
+
+begin iteration = 165
+completed iteration = 165, log [P(observation | lambda)] = -132246.487703
+
+begin iteration = 166
+completed iteration = 166, log [P(observation | lambda)] = -132246.102422
+
+begin iteration = 167
+completed iteration = 167, log [P(observation | lambda)] = -132245.759814
+
+begin iteration = 168
+completed iteration = 168, log [P(observation | lambda)] = -132245.453910
+
+begin iteration = 169
+completed iteration = 169, log [P(observation | lambda)] = -132245.179430
+
+begin iteration = 170
+completed iteration = 170, log [P(observation | lambda)] = -132244.931732
+
+begin iteration = 171
+completed iteration = 171, log [P(observation | lambda)] = -132244.706777
+
+begin iteration = 172
+completed iteration = 172, log [P(observation | lambda)] = -132244.501119
+
+begin iteration = 173
+completed iteration = 173, log [P(observation | lambda)] = -132244.311927
+
+begin iteration = 174
+completed iteration = 174, log [P(observation | lambda)] = -132244.137006
+
+begin iteration = 175
+completed iteration = 175, log [P(observation | lambda)] = -132243.974810
+
+begin iteration = 176
+completed iteration = 176, log [P(observation | lambda)] = -132243.824388
+
+begin iteration = 177
+completed iteration = 177, log [P(observation | lambda)] = -132243.685264
+
+begin iteration = 178
+completed iteration = 178, log [P(observation | lambda)] = -132243.557227
+
+begin iteration = 179
+completed iteration = 179, log [P(observation | lambda)] = -132243.440105
+
+begin iteration = 180
+completed iteration = 180, log [P(observation | lambda)] = -132243.333573
+
+begin iteration = 181
+completed iteration = 181, log [P(observation | lambda)] = -132243.237054
+
+begin iteration = 182
+completed iteration = 182, log [P(observation | lambda)] = -132243.149719
+
+begin iteration = 183
+completed iteration = 183, log [P(observation | lambda)] = -132243.070557
+
+begin iteration = 184
+completed iteration = 184, log [P(observation | lambda)] = -132242.998470
+
+begin iteration = 185
+completed iteration = 185, log [P(observation | lambda)] = -132242.932357
+
+begin iteration = 186
+completed iteration = 186, log [P(observation | lambda)] = -132242.871175
+
+begin iteration = 187
+completed iteration = 187, log [P(observation | lambda)] = -132242.813971
+
+begin iteration = 188
+completed iteration = 188, log [P(observation | lambda)] = -132242.759905
+
+begin iteration = 189
+completed iteration = 189, log [P(observation | lambda)] = -132242.708265
+
+begin iteration = 190
+completed iteration = 190, log [P(observation | lambda)] = -132242.658482
+
+begin iteration = 191
+completed iteration = 191, log [P(observation | lambda)] = -132242.610160
+
+begin iteration = 192
+completed iteration = 192, log [P(observation | lambda)] = -132242.563093
+
+begin iteration = 193
+completed iteration = 193, log [P(observation | lambda)] = -132242.517285
+
+begin iteration = 194
+completed iteration = 194, log [P(observation | lambda)] = -132242.472939
+
+begin iteration = 195
+completed iteration = 195, log [P(observation | lambda)] = -132242.430417
+
+begin iteration = 196
+completed iteration = 196, log [P(observation | lambda)] = -132242.390168
+
+begin iteration = 197
+completed iteration = 197, log [P(observation | lambda)] = -132242.352636
+
+begin iteration = 198
+completed iteration = 198, log [P(observation | lambda)] = -132242.318176
+
+begin iteration = 199
+completed iteration = 199, log [P(observation | lambda)] = -132242.286993
+
+T = 50000, N = 4, M = 27, iterations = 200
+
+final pi =
+ 0.00000  1.00000  0.00000  0.00000 ,  sum = 1.000000
+
+final A =
+ 0.30266  0.00000  0.00000  0.69734 ,  sum = 1.000000
+ 0.00000  0.00355  0.99630  0.00015 ,  sum = 1.000000
+ 0.36839  0.00000  0.00853  0.62308 ,  sum = 1.000000
+ 0.00000  0.25439  0.68496  0.06065 ,  sum = 1.000000
+
+final B^T =
+a  0.00000  0.01080  0.01301  0.16945 
+b  0.00111  0.01239  0.02991  0.00000 
+c  0.00000  0.03067  0.07391  0.00000 
+d  0.00225  0.01146  0.09593  0.00010 
+e  0.22393  0.00000  0.00000  0.17118 
+f  0.00272  0.01062  0.04763  0.00000 
+g  0.00000  0.00803  0.03852  0.00000 
+h  0.19811  0.00000  0.00155  0.00000 
+i  0.01056  0.05018  0.00000  0.14443 
+j  0.00000  0.00000  0.00491  0.00000 
+k  0.00206  0.00019  0.01050  0.00125 
+l  0.03583  0.09945  0.06144  0.00000 
+m  0.01760  0.02661  0.04054  0.00000 
+n  0.00269  0.27996  0.08981  0.00000 
+o  0.07535  0.12306  0.00000  0.10604 
+p  0.00090  0.04520  0.04127  0.00000 
+q  0.00001  0.00000  0.00222  0.00000 
+r  0.06328  0.13218  0.07875  0.00000 
+s  0.05961  0.12021  0.09760  0.00000 
+t  0.04646  0.00000  0.19961  0.00000 
+u  0.00529  0.01935  0.00000  0.05140 
+v  0.00000  0.00000  0.02357  0.00000 
+w  0.00478  0.00000  0.03114  0.00000 
+x  0.00000  0.01074  0.00367  0.00000 
+y  0.04614  0.00161  0.01256  0.00006 
+z  0.00009  0.00000  0.00155  0.00000 
+   0.20122  0.00730  0.00041  0.35611 
+sum[0] = 1.000000 sum[1] = 1.000000 sum[2] = 1.000000 sum[3] = 1.000000 
+
+log [P(observations | lambda)] = -132242.286993
+
+
+
+Printing Normalized B
+ 0.00000 0.06340 0.07638 0.99506
+ 0.03438 0.38234 0.92338 0.00000
+ 0.00001 0.38329 0.92363 0.00000
+ 0.02332 0.11863 0.99266 0.00105
+ 0.79447 0.00000 0.00000 0.60731
+ 0.05555 0.21727 0.97453 0.00000
+ 0.00008 0.20402 0.97897 0.00000
+ 0.99997 0.00000 0.00780 0.00000
+ 0.06888 0.32740 0.00000 0.94237
+ 0.00047 0.00000 1.00000 0.00000
+ 0.19103 0.01723 0.97455 0.11606
+ 0.29308 0.81340 0.50247 0.00000
+ 0.34119 0.51582 0.78582 0.00000
+ 0.00913 0.95216 0.30547 0.00000
+ 0.42079 0.68724 0.00000 0.59215
+ 0.01468 0.73840 0.67421 0.00000
+ 0.00324 0.00000 0.99999 0.00000
+ 0.38039 0.79451 0.47335 0.00000
+ 0.35929 0.72448 0.58825 0.00000
+ 0.22671 0.00000 0.97396 0.00000
+ 0.09590 0.35078 0.00000 0.93153
+ 0.00004 0.00000 1.00000 0.00000
+ 0.15186 0.00000 0.98840 0.00000
+ 0.00000 0.94635 0.32314 0.00000
+ 0.96431 0.03365 0.26262 0.00127
+ 0.05616 0.00000 0.99842 0.00000
+ 0.49187 0.01785 0.00100 0.87048
+
+
+Cosine Similarities Values:
+ 1.00000  0.09477  0.09485  0.08439  0.60431  0.08821  0.08771  0.00060  0.95847  0.07638  0.19102  0.08995  0.09273  0.08370  0.63279  0.09831  0.07638  0.08653  0.09086  0.07440  0.94917  0.07638  0.07550  0.08468  0.02346  0.07626  0.86739 
+ 0.09477  1.00000  0.99941  0.96277  0.02732  0.98484  0.98197  0.04159  0.12755  0.92340  0.91303  0.78505  0.93457  0.64642  0.27723  0.90537  0.92349  0.75393  0.83253  0.90713  0.13741  0.92338  0.91789  0.66021  0.28852  0.92386  0.02466 
+ 0.09485  0.99941  1.00000  0.96232  0.00001  0.98338  0.98240  0.00721  0.12549  0.92363  0.90672  0.77587  0.92352  0.64709  0.26342  0.90574  0.92362  0.74173  0.82101  0.89958  0.13445  0.92363  0.91291  0.66119  0.25546  0.92217  0.00777 
+ 0.08439  0.96277  0.96232  1.00000  0.01916  0.99445  0.99599  0.03107  0.04143  0.99267  0.97402  0.60212  0.84921  0.41640  0.09196  0.75720  0.99273  0.57300  0.67826  0.97210  0.04483  0.99266  0.98469  0.43304  0.28717  0.99241  0.01550 
+ 0.60431  0.02732  0.00001  0.01916  1.00000  0.04414  0.00007  0.79444  0.62703  0.00037  0.22225  0.23284  0.27106  0.00726  0.69392  0.01166  0.00257  0.30220  0.28544  0.18011  0.64192  0.00003  0.12065  0.00000  0.76689  0.04462  0.91943 
+ 0.08821  0.98484  0.98338  0.99445  0.04414  1.00000  0.99836  0.06316  0.07496  0.97456  0.96408  0.68268  0.89683  0.50506  0.17269  0.81828  0.97471  0.65504  0.75063  0.96175  0.08154  0.97453  0.97166  0.52052  0.31681  0.97611  0.03218 
+ 0.08771  0.98197  0.98240  0.99599  0.00007  0.99836  1.00000  0.00772  0.06680  0.97897  0.95758  0.65788  0.87456  0.49330  0.14025  0.81067  0.97896  0.62552  0.72372  0.95350  0.07157  0.97897  0.96762  0.50942  0.26404  0.97743  0.00466 
+ 0.00060  0.04159  0.00721  0.03107  0.79444  0.06316  0.00772  1.00000  0.06888  0.00827  0.19863  0.29699  0.34731  0.01152  0.42077  0.01994  0.01104  0.38407  0.36387  0.23430  0.09590  0.00785  0.15957  0.00252  0.96633  0.06395  0.49187 
+ 0.95847  0.12755  0.12549  0.04143  0.62703  0.07496  0.06680  0.06888  1.00000  0.00003  0.12817  0.28650  0.19238  0.31237  0.81201  0.24276  0.00022  0.28633  0.26194  0.01562  0.99930  0.00000  0.01046  0.30984  0.07864  0.00387  0.86004 
+ 0.07638  0.92340  0.92363  0.99267  0.00037  0.97456  0.97897  0.00827  0.00003  1.00000  0.97464  0.50261  0.78598  0.30547  0.00020  0.67421  1.00000  0.47353  0.58842  0.97407  0.00005  1.00000  0.98847  0.32314  0.26307  0.99845  0.00123 
+ 0.19102  0.91303  0.90672  0.97402  0.22225  0.96408  0.95758  0.19863  0.12817  0.97464  1.00000  0.55968  0.83989  0.31584  0.16095  0.67257  0.97516  0.54765  0.65439  0.99248  0.13247  0.97455  0.99225  0.33122  0.44088  0.98374  0.19627 
+ 0.08995  0.78505  0.77587  0.60212  0.23284  0.68268  0.65788  0.29699  0.28650  0.50261  0.55968  1.00000  0.91442  0.93065  0.68233  0.94369  0.50342  0.99559  0.99018  0.55583  0.31343  0.50249  0.54115  0.93213  0.44195  0.51814  0.15918 
+ 0.09273  0.93457  0.92352  0.84921  0.27106  0.89683  0.87456  0.34731  0.19238  0.78598  0.83989  0.91442  1.00000  0.73430  0.49806  0.91570  0.78692  0.91158  0.95855  0.84271  0.21366  0.78584  0.82852  0.74208  0.55274  0.80375  0.17782 
+ 0.08370  0.64642  0.64709  0.41640  0.00726  0.50506  0.49330  0.01152  0.31237  0.30547  0.31584  0.93065  0.73430  1.00000  0.65821  0.90915  0.30549  0.90457  0.87279  0.29958  0.33487  0.30547  0.30331  0.99979  0.12107  0.30550  0.02180 
+ 0.63279  0.27723  0.26342  0.09196  0.69392  0.17269  0.14025  0.42077  0.81201  0.00020  0.16095  0.68233  0.49806  0.65821  1.00000  0.51363  0.00136  0.70608  0.64908  0.09540  0.83303  0.00002  0.06390  0.65037  0.42965  0.02363  0.73470 
+ 0.09831  0.90537  0.90574  0.75720  0.01166  0.81828  0.81067  0.01994  0.24276  0.67421  0.67257  0.94369  0.91570  0.90915  0.51363  1.00000  0.67425  0.91138  0.93683  0.65998  0.26042  0.67421  0.66861  0.91665  0.21606  0.67397  0.02108 
+ 0.07638  0.92349  0.92362  0.99273  0.00257  0.97471  0.97896  0.01104  0.00022  1.00000  0.97516  0.50342  0.78692  0.30549  0.00136  0.67425  1.00000  0.47458  0.58941  0.97469  0.00031  0.99999  0.98889  0.32314  0.26574  0.99860  0.00260 
+ 0.08653  0.75393  0.74173  0.57300  0.30220  0.65504  0.62552  0.38407  0.28633  0.47353  0.54765  0.99559  0.91158  0.90457  0.70608  0.91138  0.47458  1.00000  0.99072  0.54726  0.31518  0.47336  0.52562  0.90484  0.51785  0.49396  0.20176 
+ 0.09086  0.83253  0.82101  0.67826  0.28544  0.75063  0.72372  0.36387  0.26194  0.58842  0.65439  0.99018  0.95855  0.87279  0.64908  0.93683  0.58941  0.99072  1.00000  0.65439  0.28859  0.58827  0.63599  0.87570  0.52533  0.60750  0.19025 
+ 0.07440  0.90713  0.89958  0.97210  0.18011  0.96175  0.95350  0.23430  0.01562  0.97407  0.99248  0.55583  0.84271  0.29958  0.09540  0.65998  0.97469  0.54726  0.65439  1.00000  0.02174  0.97397  0.99709  0.31472  0.47440  0.98516  0.11249 
+ 0.94917  0.13741  0.13445  0.04483  0.64192  0.08154  0.07157  0.09590  0.99930  0.00005  0.13247  0.31343  0.21366  0.33487  0.83303  0.26042  0.00031  0.31518  0.28859  0.02174  1.00000  0.00000  0.01456  0.33196  0.10547  0.00539  0.86432 
+ 0.07638  0.92338  0.92363  0.99266  0.00003  0.97453  0.97897  0.00785  0.00000  1.00000  0.97455  0.50249  0.78584  0.30547  0.00002  0.67421  0.99999  0.47336  0.58827  0.97397  0.00000  1.00000  0.98841  0.32314  0.26266  0.99842  0.00102 
+ 0.07550  0.91789  0.91291  0.98469  0.12065  0.97166  0.96762  0.15957  0.01046  0.98847  0.99225  0.54115  0.82852  0.30331  0.06390  0.66861  0.98889  0.52562  0.63599  0.99709  0.01456  0.98841  1.00000  0.31939  0.40602  0.99537  0.07569 
+ 0.08468  0.66021  0.66119  0.43304  0.00000  0.52052  0.50942  0.00252  0.30984  0.32314  0.33122  0.93213  0.74208  0.99979  0.65037  0.91665  0.32314  0.90484  0.87570  0.31472  0.33196  0.32314  0.31939  1.00000  0.11670  0.32263  0.01722 
+ 0.02346  0.28852  0.25546  0.28717  0.76689  0.31681  0.26404  0.96633  0.07864  0.26307  0.44088  0.44195  0.55274  0.12107  0.42965  0.21606  0.26574  0.51785  0.52533  0.47440  0.10547  0.26266  0.40602  0.11670  1.00000  0.31636  0.47629 
+ 0.07626  0.92386  0.92217  0.99241  0.04462  0.97611  0.97743  0.06395  0.00387  0.99845  0.98374  0.51814  0.80375  0.30550  0.02363  0.67397  0.99860  0.49396  0.60750  0.98516  0.00539  0.99842  0.99537  0.32263  0.31636  1.00000  0.02863 
+ 0.86739  0.02466  0.00777  0.01550  0.91943  0.03218  0.00466  0.49187  0.86004  0.00123  0.19627  0.15918  0.17782  0.02180  0.73470  0.02108  0.00260  0.20176  0.19025  0.11249  0.86432  0.00102  0.07569  0.01722  0.47629  0.02863  1.00000 
+(base) Yashs-MBP:Assignment7 yash$ 
